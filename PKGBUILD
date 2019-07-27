@@ -1,7 +1,6 @@
 # Maintainer: Peter Cai <peter at typeblog dot net>
 pkgname=netease-cloud-music
 pkgver=1.2.1
-_pkgdate=20190428
 pkgrel=1
 pkgdesc="Netease Cloud Music, converted from .deb package"
 arch=("x86_64")
