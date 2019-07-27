@@ -1,18 +1,18 @@
 # Maintainer: Peter Cai <peter at typeblog dot net>
 pkgname=netease-cloud-music
-pkgver=1.2.1
+pkgver=1.2.0.2
 _pkgdate=20190428
 pkgrel=1
 pkgdesc="Netease Cloud Music, converted from .deb package"
 arch=("x86_64")
 url="http://music.163.com/"
 license=('custom')
-depends=()
+depends=('qcef')
 source=(
-	"http://d1.music.126.net/dmusic/netease-cloud-music_${pkgver}_amd64_ubuntu_${_pkgdate}.deb"
+	"https://mirrors.cloud.tencent.com/deepin/pool/main/n/netease-cloud-music/netease-cloud-music_${pkgver}-1%2Bstable_amd64.deb"
 	"http://music.163.com/html/web2/service.html"
 )
-md5sums=('1f47c7dc3d9ce46da8099e539ee8a74d'
+md5sums=('aca82e6f98d3110161eba515b833230f'
          'SKIP')
 
 package() {
