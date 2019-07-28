@@ -1,5 +1,5 @@
 # Maintainer: Peter Cai <peter at typeblog dot net>
-# Maintainer: Mike Tong <peter at typeblog dot net>
+# Contributor: Mike Tong <3344907598 [AT] qq.com>
 pkgname=netease-cloud-music
 pkgver=1.2.1
 _pkgdate=20190428
